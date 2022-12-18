@@ -1,11 +1,18 @@
-rompt Please make a selection:
-prompt 1: Mon compte
-prompt 2: Recommendation
-prompt 3: Besoins
-prompt 4: Candidature
-prompt 5: Publication
-prompt 0: Quitter
+PROMPT
+PROMPT
+PROMPT
+PROMPT
+PROMPT
+PROMPT
+PROMPT
+PROMPT   "-------------------------------DANS CETTE SECTION VOUS PORREZ GERER TOUT CE QUI A TRAIT A VOS RECOMMENDATION "
 
+rompt Please make a selection:
+prompt 1: Liste de recommendation
+prompt 2: Ajouter un recommendation
+prompt 3: Trier les recommendation
+prompt 4: Precedent
+prompt 0: Quitter
 
 accept selection prompt "Enter option 0-5: "
 

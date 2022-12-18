@@ -35,7 +35,7 @@ set define on
 column script new_value v_script
 
 select case 
-       when (select count(nom) from utilisateurs where email ='&Votre_adresse_mail' and mot_de_passe = '&Votre_mot_de_passe') >= 1 then '@PLSQL/home'       
+       when (select count(nom) from utilisateurs where email ='&&Votre_adresse_mail' and mot_de_passe = '&&Votre_mot_de_passe') >= 1 then '@PLSQL/home'       
         else 'echec dauthentification'
        end as script 
 from dual;
