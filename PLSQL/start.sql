@@ -1,5 +1,5 @@
 PROMPT **************  BIENVENUE  SUR TCHAFA ***************
-PROMPT
+PROMPT '                 ***********************'
 PROMPT 1.Incription
 PROMPT 2.Connexion
 PROMPT 3.Quitter
@@ -13,7 +13,7 @@ column script new_value v_script
 select case '&selection.'
        when '1' then '@FEATURES/utilisateur/New.sql'
        when '2' then '@PLSQL/connexion'
-       when '3' then 'exit'
+       when '3' then '@PLSQL/exit.sql'
        else 'menu'
        end as script
 from dual;
