@@ -3,6 +3,7 @@ ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY';
 spool install.log
 @@OBJECTS/run
 @@DATA/run
+@@PLSQL/start
 
 PROMPT "-----------------------------------------------------MADE BY-----------------------------------------"
 PROMPT "-----------------------------------------------------SANGUO-----------------------------------------"
