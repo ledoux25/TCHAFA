@@ -1,3 +1,5 @@
+clear screen
+
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
@@ -17,6 +19,7 @@ PROMPT '                                  |-------------------------------------
 accept selection prompt "Choisisez une option 1-3: "
 
 set term off
+set define ON
 
 column script new_value v_script
 
@@ -30,4 +33,4 @@ from dual;
 
 set term on
 
-@&v_script.
+@&v_script

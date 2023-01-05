@@ -1,3 +1,4 @@
+clear screen
 PROMPT
 PROMPT
 PROMPT
@@ -42,4 +43,4 @@ from dual;
 
 set term on
 
-@&v_script.lo
+@&v_script
