@@ -1,8 +1,18 @@
-PROMPT **************  BIENVENUE  SUR TCHAFA ***************
-PROMPT '                 ***********************'
-PROMPT 1.Incription
-PROMPT 2.Connexion
-PROMPT 3.Quitter
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
+PROMPT '                                  |                                                                                                       |                         ' 
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '     
+prompt '                                  |                   *                                                                  *                |                         '
+PROMPT '                                  |                   *                                                                  *                |                         '
+prompt '                                  |                   *                    1.Incription                                  *                |                         ' 
+prompt '                                  |                   *                    2.Connexion                                   *                |                         '
+prompt '                                  |                   *                    3.Quitter                                     *                |                         '
+Prompt '                                  |                   *                                                                  *                |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
 
 accept selection prompt "Choisisez une option 1-3: "
 

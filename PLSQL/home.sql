@@ -1,12 +1,20 @@
-rompt Please make a selection:
-prompt 1: Mon compte
-prompt 2: Recommendation
-prompt 3: Besoins
-prompt 4: Candidature
-prompt 5: Publication
-prompt 0: Quitter
-
-
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
+PROMPT '                                  |                                                                                                       |                         ' 
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '     
+prompt '                                  |                   *                                                                  *                |                         '
+prompt '                                  |                   *                    1: Mon compte                                 *                |                         '
+prompt '                                  |                   *                    2: Recommendation                             *                |                         '
+prompt '                                  |                   *                    3: Besoins                                    *                |                         '
+prompt '                                  |                   *                    4: Candidature                                *                |                         '
+prompt '                                  |                   *                    5: Publication                                *                |                         '
+prompt '                                  |                   *                    6: Quitter                                    *                |                         '
+prompt '                                  |                   *                                                                  *                |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
 accept selection prompt "Enter option 0-5: "
 
 set term off

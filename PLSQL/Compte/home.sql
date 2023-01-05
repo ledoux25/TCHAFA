@@ -2,22 +2,26 @@ PROMPT
 PROMPT
 PROMPT
 PROMPT
-PROMPT
-PROMPT
-PROMPT
-PROMPT   "-------------------------------DANS CETTE SECTION VOUS PORREZ GERER TOUT CE QUI A TRAIT A VOS RECOMMENDATION "
-
-rompt Please make a selection:
-prompt 1: Mes information
-prompt 2: Mes sectuers
-prompt 3: Mes recommendations
-prompt 4: Mes publication
-prompt 5: Mes candidature
-prompt 6: Mes besoin
-prompt 7: Precedent
-prompt 0: Quitter
-
-accept selection prompt "Enter option 0-6: "
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
+PROMPT '                                  |                                                                                                       |                         ' 
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                          Please make a selection:                                     |                         '
+PROMPT '                                  |                   ********************************************************************                |                         ' 
+Prompt '                                  |                   *                                                                  *                |                         '
+prompt '                                  |                   *                    1: Mes information                            *                |                         '
+prompt '                                  |                   *                    2: Mes sectuers                               *                |                         '
+prompt '                                  |                   *                    3: Mes recommendations                        *                |                         '
+prompt '                                  |                   *                    4: Mes publication                            *                |                         '
+prompt '                                  |                   *                    5: Mes candidature                            *                |                         '
+prompt '                                  |                   *                    6: Mes besoin                                 *                |                         '
+prompt '                                  |                   *                    7: Precedent                                  *                |                         '
+prompt '                                  |                   *                    0: Quitter                                    *                |                         '
+Prompt '                                  |                   *                                                                  *                |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
+accept selection prompt "Enter option 0-7: "
 
 set term off
 set serveroutput on
