@@ -1,3 +1,4 @@
+clear SCREEN
 PROMPT
 PROMPT
 PROMPT
@@ -10,7 +11,7 @@ PROMPT '                                  |                   ******************
 Prompt '                                  |                   *                                                                  *                |                         '
 prompt '                                  |                   *                    1: Liste de recommendation                    *                |                         '
 prompt '                                  |                   *                    2: Ajouter un recommendation                  *                |                         '
-prompt '                                  |                   *                    3: Trier les recommendation                   *                |                         '
+prompt '                                  |                   *                    3: Suprimer les recommendation                *                |                         '
 prompt '                                  |                   *                    4: Precedent                                  *                |                         '
 prompt '                                  |                   *                    0: Quitter                                    *                |                         '
 Prompt '                                  |                   *                                                                  *                |                         '
@@ -25,11 +26,10 @@ set serveroutput on
 column script new_value v_script
 
 select case '&selection.'
-       when '1' then 'PLSQL/Compte/home.sql'
-       when '2' then 'PLSQL/Recommendation/home.sql'
-       when '3' then 'PLSQL/Besoin/home.sql'
-       when '4' then 'PLSQL/Candidature/home.sql'
-       when '5' then 'PLSQL/Publication/home.sql'
+       when '1' then 'FEATURES/recommendation/List.sql'
+       when '2' then 'FEATURES/recommendation/New.sql'
+       when '3' then 'FEATURES/recommendation/Del.sql'
+       when '4' then 'PLSQL/home.sql'
        when '0' then 'PLSQL/exit.sql'
        else 'menu'
        end as script

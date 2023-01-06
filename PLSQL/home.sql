@@ -1,3 +1,4 @@
+clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
@@ -14,8 +15,8 @@ prompt '                                  |                   *                 
 PROMPT '                                  |                   ********************************************************************                |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-5: "
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
+accept selection prompt "Enter option 1-6: "
 
 set term off
 set serveroutput on
@@ -27,7 +28,7 @@ select case '&selection.'
        when '3' then 'PLSQL/Besoin/home.sql'
        when '4' then 'PLSQL/Candidature/home.sql'
        when '5' then 'PLSQL/Publication/home.sql'
-       when '0' then 'PLSQL/exit.sql'
+       when '6' then 'PLSQL/exit.sql'
        else 'menu'
        end as script
 from dual;

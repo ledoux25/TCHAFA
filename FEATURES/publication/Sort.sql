@@ -4,4 +4,4 @@ WHERE salaire >= &salaire_minimum
 AND b.secteur_id = UPPER(SUBSTR('&secteur-rechercher',1,5));
 
 
-@@FEATURES/publication/List
+@@PLSQL/Publication/transition

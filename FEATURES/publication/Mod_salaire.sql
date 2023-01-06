@@ -3,7 +3,7 @@ PROMPT "modification d'une publication"
 PROMPT "Vous allez renseignez un intervalle de date"
 SET DEFINE ON
 DECLARE
-d_New_SALARY      FLOAT            := &valeur_du_nouveau_salaire
+d_New_SALARY    FLOAT           := &valeur_du_nouveau_salaire;
 d_date_min      DATE            := '&date_min_de_intervalle';
 d_date_max      DATE            := '&date_max_de_lintervalle'; 
 v_secteur_id    VARCHAR(50)     := '&Nom_du_secteur_lie_au_besion';
@@ -17,4 +17,4 @@ AND besoin_id = (select besoin_id from BESOINS  WHERE secteur_id = UPPER(SUBSTR(
 end; 
 /
 
-@@FEATURES/publication/List
+@@PLSQL/Publication/transitiont

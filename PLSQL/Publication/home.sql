@@ -1,3 +1,4 @@
+clear screen
 PROMPT
 PROMPT
 PROMPT
@@ -13,7 +14,8 @@ prompt '                                  |                   *                 
 prompt '                                  |                   *                     3: Modifier une publication                  *                |                         '
 prompt '                                  |                   *                     4: Annuler une publication                   *                |                         '
 prompt '                                  |                   *                     5: Consulter les publication                 *                |                         '
-prompt '                                  |                   *                     6: Precedent                                 *                |                         '
+prompt '                                  |                   *                     6: Trier les publication                     *                |                         '  
+prompt '                                  |                   *                     7: Precedent                                 *                |                         '
 prompt '                                  |                   *                     0: Quitter                                   *                |                         '
 Prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '
@@ -29,10 +31,11 @@ column script new_value v_script
 select case '&selection.'
        when '1' then 'FEATURES/publication/New.sql'
        when '2' then 'FEATURES/publication/List.sql'
-       when '3' then 'PLSQ/Publication/Modifier/home.sql'
+       when '3' then 'PLSQL/Publication/Modifier/home.sql'
        when '4' then 'FEATURES/publication/Del.sql'
        when '5' then 'FEATURES/publication/Select.sql'
-       when '6' then 'PLSQL/home.sql'
+       when '6' then 'FEATURES/publication/Sort.sql'
+       when '7' then 'PLSQL/home.sql'
        when '0' then 'PLSQL/exit.sql'
        else 'menu'
        end as script
@@ -40,4 +43,4 @@ from dual;
 
 set term on
 
-@&v_script.lo
+@&v_script

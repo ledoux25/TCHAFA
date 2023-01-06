@@ -1,3 +1,4 @@
+CLEAR SCREEN
 -- DECLARE
 -- v_email varchar(20) := &mail,
 -- mdp varchar(20) := &mdp,
@@ -30,13 +31,23 @@
 -- accept selection prompt "Enter option 1-3: "
 
 -- set term 
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
+PROMPT '                                  |                                                                                                       |                         ' 
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                   ********************************************************************                |                         ' 
+Prompt '                                  |                   *   VEILLEZ RESEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION    *                |                         '
+PROMPT '                                  |                   ********************************************************************                |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  |                                                                                                       |                         '
+PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
+
 set define on
 
 column script new_value v_script
 
 select case 
        when (select count(nom) from utilisateurs where email ='&&Votre_adresse_mail' and mot_de_passe = '&&Votre_mot_de_passe') >= 1 then '@PLSQL/home'       
-        else 'echec dauthentification'
+        else '@PLSQL/exit.sql'
        end as script 
 from dual;
 

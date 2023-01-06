@@ -1,6 +1,6 @@
 PROMPT "modification d'une publication"
 SET DEFINE ON   
-d_New_date      DATE            := '&Nouveua deathLine'
+d_New_date      DATE            := '&Nouveua deathLine';
 d_date_min      DATE            := '&date_min_de_intervalle';
 d_date_max      DATE            := '&date_max_de_lintervalle'; 
 v_secteur_id    VARCHAR(50)     := '&Nom_du_secteur_lie_au_besion';
@@ -13,4 +13,4 @@ AND besoin_id = (select besoin_id from BESOINS  WHERE secteur_id = UPPER(SUBSTR(
 end; 
 /
 
-@@FEATURES/publication/List
+@@PLSQL/Publication/transition

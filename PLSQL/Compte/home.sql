@@ -29,12 +29,12 @@ set serveroutput on
 column script new_value v_script
 
 select case '&selection.'
-       when '1' then 'FEATURES/utilisateur/List'
-       when '2' then 'FEATURES/liste_secteur/List'
-       when '3' then 'FEATURES/recommendation/List'
-       when '4' then 'FEATURES/publication/List'
-       when '5' then 'PLSQL/candidature/List'
-       when '6' then 'PLSQL/besoin/List'
+       when '1' then 'FEATURES/utilisateur/List2'
+       when '2' then 'FEATURES/liste_secteur/List2'
+       when '3' then 'FEATURES/recommendation/List2'
+       when '4' then 'FEATURES/publication/List2'
+       when '5' then 'FEATURES/candidature/List2'
+       when '6' then 'FEATURES/besoin/List2'
        when '7' then 'PLSQL/home.sql'
        when '0' then 'PLSQL/exit.sql'
        else 'menu'

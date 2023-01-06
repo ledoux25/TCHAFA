@@ -1,3 +1,4 @@
+clear screen
 PROMPT
 PROMPT
 PROMPT
@@ -20,7 +21,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-5: "
+accept selection prompt "Enter_option_0-5: "
 
 set term off
 set serveroutput on

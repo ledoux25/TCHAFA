@@ -4,6 +4,6 @@ SELECT r.recom_nom, r.recom_numero, r.recom_email, u.nom||' '||u.prenom "nom com
 from recommendations r 
 join utilisateurs u 
 on(r.user_id = u.user_id)
-where u.email = '&entre_ton_email';
+where u.email = '&Votre_adresse_mail';
 
-@@FEATURES/recommendation/List
+@@PLSQL/Recommendation/transition.sql
