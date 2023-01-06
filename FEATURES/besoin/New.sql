@@ -1,3 +1,4 @@
+PROMPT ajouter un besoin
 SET DEFINE ON
 DECLARE
 v_paiment_par     varchar(50) := UPPER('&paiement_par');
