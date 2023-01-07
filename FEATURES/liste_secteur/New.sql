@@ -11,7 +11,7 @@ declare
      
      INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) 
      VALUES (besion_sequence.NEXTVAL,v_paiement_par,v_localisation, v_user_id,v_secteur_id);--1
-
+        DBMS_OUTPUT.PUT_LINE(' votre besooin sera publier merci ');
 
     END 
     /

@@ -1,0 +1,505 @@
+**********************SUPRESSION****************************************
+Suppression de la table secteur
+
+Table supprimée.
+
+Suppression de la table utilisateur
+
+Table supprimée.
+
+Suppression de la table publications
+
+Table supprimée.
+
+Suppression de la table besoins_realiser_id
+
+Table supprimée.
+
+Suppression de la table besion
+
+Table supprimée.
+
+Suppression de la table candidature
+
+Table supprimée.
+
+Supression de la table liste_secteurs
+
+Table supprimée.
+
+Suppression de la table  recommandation
+
+Table supprimée.
+
+************************CREATION***********************
+Creating table secteurs
+
+Table créée.
+
+Creating table recommendations
+
+Table créée.
+
+Creating table utilisateurs
+
+Table créée.
+
+Creating table besoins
+
+Table créée.
+
+Creating table candidatures
+
+Table créée.
+
+Creating table publications
+
+Table créée.
+
+Creating table besoins_realise
+
+Table créée.
+
+Creating table liste_secteurs
+
+Table créée.
+
+Setting PRIMARY KEYS
+Ajout de la cle primaire de la table secteur
+
+Table modifiée.
+
+Ajout de la cle primaire de la table recommandation
+
+Table modifiée.
+
+Ajout de la cle primaire de la table utilisateur
+
+Table modifiée.
+
+Ajout de la cle primaire de la table besion
+
+Table modifiée.
+
+Ajout de la cle primaire de la table candidature
+
+Table modifiée.
+
+Ajout de la cle primaire de la table publication
+
+Table modifiée.
+
+Ajout de la cle primaire de la table besoin_realiser
+
+Table modifiée.
+
+Ajout de la cle primaire de la table Liste secteur
+
+Table modifiée.
+
+Cle etrangere de la table besoin
+
+Table modifiée.
+
+
+Table modifiée.
+
+creation des cles etrangeres de la candidature
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creating table liste_secteurs
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creating des cle etrangere de la table publication
+
+Table modifiée.
+
+Creatiion des cles etrangere de la table recommandation
+
+Table modifiée.
+
+Creation des contraints unique  recommendations
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creation des contraints unique utilisateurs
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creation contraint sur utilisateur.statut
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creating table recommendations
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creating table candidatures
+
+Table modifiée.
+
+Creating table besoins_realise
+
+Table modifiée.
+
+Creating table besoins
+
+Table modifiée.
+
+Creating indexes
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+************************Suppression des sequence***********************
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+suppression de la sequence
+
+Séquence supprimée.
+
+************************Creation des sequence***********************
+Creation de la id_auto_increment de la table recommandations
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table utilisateurs
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table besion
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table candidature
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table publication
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table besion_realiser
+
+Séquence créée.
+
+Creation de la id_auto_increment de la table liste_secteur
+
+Séquence créée.
+
+************************Insertion des commentairee***********************
+creating comments secteur by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments RECOMMANDATION by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments users by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments BESOIN by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments CANDIDATURE by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments PUBLICATION by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments besoin_realise by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments liste_secteur by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+************************INSERTION***********************
+INSERTING into UTILISATEURS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into SECTEURS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into recommendations
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into besoin
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING IN PUBLICATION
+
+Procédure PL/SQL terminée avec succès.
+
+inserting table liste_Secteur
+
+Procédure PL/SQL terminée avec succès.
+
+inserting candidature
+
+Procédure PL/SQL terminée avec succès.
+
+
+'                                  ---------------------------------------------------------------------------------------------------------                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                         Please make a selection:                                      |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                   *                                                                  *                |                         '
+'                                  |                   *                                                                  *                |                         '
+'                                  |                   *                    1.Incription                                  *                |                         '
+'                                  |                   *                    2.Connexion                                   *                |                         '
+'                                  |                   *                    3.Quitter                                     *                |                         '
+'                                  |                   *                                                                  *                |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  ---------------------------------------------------------------------------------------------------------                         '
+Choisisez une option 1-3: 2
+ancien   1 : select case '&selection.'
+nouveau   1 : select case '2'
+
+SCRIPT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+-----------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+@PLSQL/connexion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+
+'                                  ---------------------------------------------------------------------------------------------------------                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                   *   VEILLEZ RESEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION    *                |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  ---------------------------------------------------------------------------------------------------------                         '
+Entrez une valeur pour votre_adresse_mail : bi@gmai.com
+Entrez une valeur pour votre_mot_de_passe : 1234
+ancien   2 :        when (select count(nom) from utilisateurs where email ='&&Votre_adresse_mail' and mot_de_passe = '&&Votre_mot_de_passe') >= 1 then '@PLSQL/home'
+nouveau   2 :        when (select count(nom) from utilisateurs where email ='bi@gmai.com' and mot_de_passe = '1234') >= 1 then '@PLSQL/home'
+
+SCRIPT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+---------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+@PLSQL/exit.sql                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+
+'                                  ---------------------------------------------------------------------------------------------------------                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                   *                  AU REVOIR TRES CHER UTILISATEUR                 *                |                         '
+'                                  |                   ********************************************************************                |                         '
+'                                  |                                                                                                       |                         '
+'                                  |                                                                                                       |                         '
+'                                  ---------------------------------------------------------------------------------------------------------                         '

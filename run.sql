@@ -4,7 +4,7 @@ spool install.log
 @@OBJECTS/run
 @@DATA/run
 
-set linesize 300
+set linesize 3000
 @@PLSQL/start
 
 spool off
