@@ -3,11 +3,11 @@ clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                                        Faites une selection :                                      |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   *                                                                  *                |                         '
-prompt '                                  |                   *                    1.Incription                                  *                |                         ' 
+prompt '                                  |                   *                    1.Inscription                                  *                |                         ' 
 prompt '                                  |                   *                    2.Connexion                                   *                |                         '
 prompt '                                  |                   *                    3.Quitter                                     *                |                         '
 Prompt '                                  |                   *                                                                  *                |                         '
@@ -16,7 +16,7 @@ PROMPT '                                  |                                     
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
 
-accept selection prompt "Choisisez une option 1-3: "
+accept selection prompt "Choisissez une option 1-3: "
 
 set term off
 set define ON
