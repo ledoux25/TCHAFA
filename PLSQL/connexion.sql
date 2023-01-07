@@ -35,7 +35,7 @@ PROMPT '                                  --------------------------------------
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
-Prompt '                                  |                   *   VEILLEZ RESEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION    *                |                         '
+Prompt '                                  |                   *   VEILLEZ RENSEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION   *                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '

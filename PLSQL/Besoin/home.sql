@@ -8,7 +8,7 @@ Prompt '                                  |                   *                 
 prompt '                                  |                   *                    1: Liste de mes besoins                       *                |                         '
 prompt '                                  |                   *                    2: Ajouter un besoin                          *                |                         '
 prompt '                                  |                   *                    3: Modifier un besoin                         *                |                         '
-prompt '                                  |                   *                    4: Suprimer un besoin                         *                |                         '
+prompt '                                  |                   *                    4: Supprimer un besoin                         *                |                         '
 prompt '                                  |                   *                    5: Publier un besion                          *                |                         '
 prompt '                                  |                   *                    6: Precedent                                  *                |                         '
 prompt '                                  |                   *                    0: Quitter                                    *                |                         '
