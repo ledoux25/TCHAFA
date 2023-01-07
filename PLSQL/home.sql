@@ -2,7 +2,7 @@ clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                                         Faites votre selection:                                      |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                                                                  *                |                         '
 prompt '                                  |                   *                    1: Mon compte                                 *                |                         '
@@ -16,7 +16,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 1-6: "
+accept selection prompt "Choisissez une  option 1-6: "
 
 set term off
 set serveroutput on

@@ -3,7 +3,7 @@ clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                                        Faites une selection :                                      |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   *                                                                  *                |                         '
@@ -16,7 +16,11 @@ PROMPT '                                  |                                     
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
 
+<<<<<<< HEAD
 accept selection prompt "Choissisez une option 1-3: "
+=======
+accept selection prompt "Choisissez une option 1-3: "
+>>>>>>> 33c79433e3c610ec585e743ede7a7ba32aca35f6
 
 set term off
 set define ON

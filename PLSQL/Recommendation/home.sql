@@ -6,12 +6,18 @@ PROMPT
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                          Please make a selection:                                     |                         '
+PROMPT '                                  |                                         Faites votre selection:                                     |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
 Prompt '                                  |                   *                                                                  *                |                         '
+<<<<<<< HEAD
 prompt '                                  |                   *                    1: Liste de recommendation                    *                |                         '
 prompt '                                  |                   *                    2: Ajouter une recommendation                  *                |                         '
 prompt '                                  |                   *                    3: Suprimer les recommendationss                *                |                         '
+=======
+prompt '                                  |                   *                    1: Liste des recommendations                    *                |                         '
+prompt '                                  |                   *                    2: Ajouter un recommendation                  *                |                         '
+prompt '                                  |                   *                    3: Supprimer les recommendations                *                |                         '
+>>>>>>> 33c79433e3c610ec585e743ede7a7ba32aca35f6
 prompt '                                  |                   *                    4: Precedent                                  *                |                         '
 prompt '                                  |                   *                    0: Quitter                                    *                |                         '
 Prompt '                                  |                   *                                                                  *                |                         '
@@ -19,7 +25,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-4: "
+accept selection prompt "Choisissez une option 0-4: "
 
 set term off
 set serveroutput on

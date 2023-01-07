@@ -2,7 +2,7 @@ clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                          Please make a selection:                                     |                         '
+PROMPT '                                  |                                          Faites votre selection:                                     |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
 Prompt '                                  |                   *                                                                  *                |                         '              
 prompt '                                  |                   *                    1: Liste de mes besoins                       *                |                         '
