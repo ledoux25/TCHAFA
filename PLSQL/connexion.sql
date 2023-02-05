@@ -22,6 +22,7 @@ CLEAR SCREEN
 --        else 'echec dauthentification'
 --        end as script 
 -- from dual;
+
 -- /
 -- set term on
 -- @select script from dual
