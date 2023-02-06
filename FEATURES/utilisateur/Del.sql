@@ -5,8 +5,12 @@ v_mail      varchar(50) := '&Votre_adresse_mail';
 v_password  varchar(50) := '&Votre_mot_de_passe';
 begin
 DELETE FROM utilisateurs
-WHERE(email = v_mail
-AND mot_de_passe = v_password);
+WHERE
+(
+    email = v_mail
+    AND 
+    mot_de_passe = v_password
+);
 end; 
 /
 

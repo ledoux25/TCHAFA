@@ -19,7 +19,9 @@ PROMPT '                                  --------------------------------------
 accept selection prompt "Choisisez une option 1-3: "
 
 set term off
+set verify OFF
 set define ON
+set linesize 500
 
 column script new_value v_script
 
