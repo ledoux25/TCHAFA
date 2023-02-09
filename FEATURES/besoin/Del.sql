@@ -10,7 +10,6 @@ DELETE FROM BESOINS
 WHERE secteur_id = UPPER(SUBSTR(v_nom_secteur,1,5))
 AND (paiement_par = v_paiement_par)
 AND (user_id = (select user_id from utilisateurs where email = v_mail));
-DBMS_OUTPUT.PUT_LINE('SUPPREXION EFFECTUER AVEC SUCCES');
 end;
 /
 

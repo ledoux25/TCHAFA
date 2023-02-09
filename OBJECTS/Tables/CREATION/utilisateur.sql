@@ -1,5 +1,5 @@
 PROMPT Creating table utilisateurs
-CREATE TABLE utilisateurS(
+CREATE TABLE utilisateurs(
     user_id integer NOT NULL,
     nom VARCHAR(45 CHAR), 
     prenom VARCHAR(45 CHAR),

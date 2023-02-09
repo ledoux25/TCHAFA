@@ -9,7 +9,6 @@ begin
 DELETE FROM publications
 WHERE (publication_date BETWEEN d_date_min  AND d_date_max )
 AND besoin_id = (select besoin_id from BESOINS  WHERE secteur_id = UPPER(SUBSTR(v_secteur_id , 1, 5)) AND (user_id = (select user_id from utilisateurs where email = v_mail)));
-DBMS_OUTPUT.PUT_LINE('SUPPREXION EFFECTUER AVEC SUCCES');
 end; 
 /
 

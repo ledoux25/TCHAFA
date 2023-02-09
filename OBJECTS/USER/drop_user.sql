@@ -1,2 +1,2 @@
-drop user ja
+drop user tf
   cascade;

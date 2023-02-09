@@ -1,5 +1,4 @@
- 
- clear screen
+clear screen
 
 SELECT * 
 FROM CANDIDATURES c
