@@ -17,7 +17,7 @@ set serveroutput on
 column script new_value v_script
 
 select case '&selection.'
-       when '1' then 'PLSQL/Recommendation/home.sql'
+       when '1' then 'PLSQL/Secteur/home.sql'
        when '0' then 'PLSQL/exit.sql'
        else 'PLSQL/exit2.sql'
        end as script
@@ -26,4 +26,4 @@ from dual;
 set term on
 
 @&v_script.
-/
+end;

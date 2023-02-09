@@ -37,10 +37,11 @@ select case '&selection.'
        when '6' then 'FEATURES/besoin/List2'
        when '7' then 'PLSQL/home.sql'
        when '0' then 'PLSQL/exit.sql'
-       else 'menu'
+       else 'PLSQL/exit2.sql'
        end as script
 from dual;
 
 set term on
 
 @&v_script
+/

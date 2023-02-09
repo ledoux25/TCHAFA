@@ -10,4 +10,4 @@ AND (v_mot_de_passe IN (select mot_de_passe from utilisateurs where admin_id LIK
 end;
 /
 
-@@FEATURES/secteur/List
+@@PLSQL/Admin/Secteur/transition

@@ -1,10 +1,11 @@
+clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                                         Se connecter en tant que :                                    |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
-prompt '                                  |                   *                    1: Precedent                                  *                |                         '
-prompt '                                  |                   *                    0: Quitter                                    *                |                         '
+prompt '                                  |                   *                    1: Admin                                      *                |                         '
+prompt '                                  |                   *                    2: User                                       *                |                         '
 prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '
 PROMPT '                                  |                                                                                                       |                         '
@@ -17,8 +18,8 @@ set serveroutput on
 column script new_value v_script
 
 select case '&selection.'
-       when '1' then 'PLSQL/Recommendation/home.sql'
-       when '0' then 'PLSQL/exit.sql'
+       when '1' then 'PLSQL/Admin/home.sql'
+       when '2' then 'PLSQL/home.sql'
        else 'PLSQL/exit2.sql'
        end as script
 from dual;

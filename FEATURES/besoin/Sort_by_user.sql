@@ -1,4 +1,5 @@
-set define ON
+set define 
+SET VERIFY off
 SELECT b.besoin_id, b.paiement_par, u.nom
 FROM BESOINS b 
 join utilisateurs u 

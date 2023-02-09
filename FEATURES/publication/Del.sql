@@ -12,4 +12,4 @@ AND besoin_id = (select besoin_id from BESOINS  WHERE secteur_id = UPPER(SUBSTR(
 end; 
 /
 
-@@PLSQL/Publication/transition
+@@PLSQL/Publication/transition 

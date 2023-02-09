@@ -10,13 +10,14 @@ prompt '                                  |                   *                 
 prompt '                                  |                   *                    3: Besoins                                    *                |                         '
 prompt '                                  |                   *                    4: Candidature                                *                |                         '
 prompt '                                  |                   *                    5: Publication                                *                |                         '
-prompt '                                  |                   *                    6: Quitter                                    *                |                         '
+prompt '                                  |                   *                    6: Secteur                                    *                |                         '
+prompt '                                  |                   *                    0: Quitter                                    *                |                         '
 prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 1-6: "
+accept selection prompt "Enter option 0-6: "
 
 set term off
 set serveroutput on
@@ -28,11 +29,13 @@ select case '&selection.'
        when '3' then 'PLSQL/Besoin/home.sql'
        when '4' then 'PLSQL/Candidature/home.sql'
        when '5' then 'PLSQL/Publication/home.sql'
-       when '6' then 'PLSQL/exit.sql'
-       else 'menu'
+       when '6' then 'PLSQL/Secteur/home.sql'
+       when '0' then 'PLSQL/exit.sql'
+       else 'PLSQL/exit2.sql'
        end as script
 from dual;
 
 set term on
 
 @&v_script.
+/

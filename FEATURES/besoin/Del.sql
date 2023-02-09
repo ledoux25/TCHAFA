@@ -1,5 +1,6 @@
 PROMPT Supprimmer un secteur
-SET DEFINE ON 
+SET DEFINE ON
+SET VERIFY off
 DECLARE 
 v_paiement_par    varchar(50)  := '&Paiment_par';
 v_nom_secteur   varchar(50)  := '&Nom_du_secteur_lie_au_besion';

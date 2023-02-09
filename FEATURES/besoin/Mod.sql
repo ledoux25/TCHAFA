@@ -1,5 +1,6 @@
 PROMPT "modification d'un secteur"
 SET DEFINE ON
+SET VERIFY off
 DECLARE
 
 v_valeur        varchar(50)  := '&Nouvelle_valeur';

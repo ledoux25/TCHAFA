@@ -32,10 +32,11 @@ select case '&selection.'
        when '5' then 'FEATURES/publication/New.sql'
        when '6' then 'PLSQL/home.sql'
        when '0' then 'PLSQL/exit.sql'
-       else 'menu'
+       else 'PLSQL/exit2.sql'
        end as script
 from dual;
 
 set term on
 
 @&v_script.
+/

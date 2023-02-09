@@ -6,7 +6,6 @@ PROMPT '                                  |                                     
 PROMPT '                                  |                                         Please make a selection:                                      |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                                                                  *                |                         '
-PROMPT '                                  |                   *                                                                  *                |                         '
 prompt '                                  |                   *                    1.Incription                                  *                |                         ' 
 prompt '                                  |                   *                    2.Connexion                                   *                |                         '
 prompt '                                  |                   *                    3.Quitter                                     *                |                         '
@@ -27,10 +26,11 @@ select case '&selection.'
        when '1' then '@FEATURES/utilisateur/New.sql'
        when '2' then '@PLSQL/connexion'
        when '3' then '@PLSQL/exit.sql'
-       else 'menu'
+       else 'PLSQL/exit2.sql'
        end as script
 from dual;
 
 set term on
 
 @&v_script
+/

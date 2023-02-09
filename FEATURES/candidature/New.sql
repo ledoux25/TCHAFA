@@ -1,3 +1,4 @@
+select * from publications; 
 PROMPT inserting candidature
 SET DEFINE OFF;
 begin

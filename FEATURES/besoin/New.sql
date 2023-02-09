@@ -1,5 +1,6 @@
 PROMPT ajouter un besoin
 SET DEFINE ON
+SET VERIFY off
 DECLARE
 v_paiment_par     varchar(50) := UPPER('&paiement_par');
 v_localisation    varchar(50) := '&Localisation';

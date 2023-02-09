@@ -19,10 +19,11 @@ column script new_value v_script
 select case '&selection.'
        when '1' then 'PLSQL/Publication/home.sql'
        when '0' then 'PLSQL/exit.sql'
-       else 'menu'
+       else 'PLSQL/exit2.sql'
        end as script
 from dual;
 
 set term on
 
 @&v_script.
+/

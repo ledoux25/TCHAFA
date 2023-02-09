@@ -46,11 +46,13 @@ set define on
 column script new_value v_script
 
 select case 
+       when (select count(nom) from utilisateurs where email ='&&Votre_adresse_mail' and mot_de_passe = '&&Votre_mot_de_passe' AND  admin_id = 'YES') >= 1 then '@PLSQL/Admin/connexion'       
        when (select count(nom) from utilisateurs where email ='&&Votre_adresse_mail' and mot_de_passe = '&&Votre_mot_de_passe') >= 1 then '@PLSQL/home'       
-        else '@PLSQL/exit.sql'
+        else '@PLSQL/exit3.sql'
        end as script 
 from dual;
 
 set term on
 
 @&v_script.
+/
