@@ -1,453 +1,453 @@
 **********************SUPRESSION****************************************
 Suppression de la table secteur
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table utilisateur
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table publications
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table besoins_realiser_id
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table besion
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table candidature
 
-Table supprimée.
+Table supprimï¿½e.
 
 Supression de la table liste_secteurs
 
-Table supprimée.
+Table supprimï¿½e.
 
 Suppression de la table  recommandation
 
-Table supprimée.
+Table supprimï¿½e.
 
 ************************CREATION***********************
 Creating table secteurs
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table recommendations
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table utilisateurs
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table besoins
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table candidatures
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table publications
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table besoins_realise
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table liste_secteurs
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Setting PRIMARY KEYS
 Ajout de la cle primaire de la table secteur
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table recommandation
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table utilisateur
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table besion
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table candidature
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table publication
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table besoin_realiser
 
-Table modifiée.
+Table modifiï¿½e.
 
 Ajout de la cle primaire de la table Liste secteur
 
-Table modifiée.
+Table modifiï¿½e.
 
 Cle etrangere de la table besoin
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 creation des cles etrangeres de la candidature
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating table liste_secteurs
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating des cle etrangere de la table publication
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creatiion des cles etrangere de la table recommandation
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creation des contraints unique  recommendations
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creation des contraints unique utilisateurs
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creation contraint sur utilisateur.statut
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating table recommendations
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating table candidatures
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating table besoins_realise
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating table besoins
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating indexes
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 
-Index créé.
+Index crï¿½ï¿½.
 
 ************************Suppression des sequence***********************
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 suppression de la sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 ************************Creation des sequence***********************
 Creation de la id_auto_increment de la table recommandations
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table utilisateurs
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table besion
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table candidature
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table publication
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table besion_realiser
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 Creation de la id_auto_increment de la table liste_secteur
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 ************************Insertion des commentairee***********************
 creating comments secteur by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments RECOMMANDATION by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments users by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments BESOIN by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments CANDIDATURE by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments PUBLICATION by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments besoin_realise by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments liste_secteur by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 ************************INSERTION***********************
 INSERTING into UTILISATEURS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into SECTEURS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into recommendations
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into besoin
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING IN PUBLICATION
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 inserting table liste_Secteur
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 inserting candidature
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 
 '                                  ---------------------------------------------------------------------------------------------------------                         '
@@ -477,7 +477,7 @@ Entrez une valeur pour votre_numero : baka
 Entrez une valeur pour votre_adresse_mail : baka@gmail.com
 Entrez une valeur pour votre_mot_de_passe : baka
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 
 '                                  ---------------------------------------------------------------------------------------------------------                         '
@@ -640,7 +640,7 @@ SCRIPT
 FEATURES/recommendation/List.sql                                                                                                                                                                                                                                                                            
 
 
-aucune ligne sélectionnée
+aucune ligne sï¿½lectionnï¿½e
 
 '                                  ---------------------------------------------------------------------------------------------------------                         '
 '                                  |                                                                                                       |                         '
@@ -739,7 +739,7 @@ FEATURES/besoin/List.sql
 
 
 
-aucune ligne sélectionnée
+aucune ligne sï¿½lectionnï¿½e
 
 '                                  ---------------------------------------------------------------------------------------------------------                         '
 '                                  |                                                                                                       |                         '
@@ -839,16 +839,16 @@ SCRIPT
 -----------------------------                                                                                                                                                                                                                                                                               
 FEATURES/utilisateur/List2                                                                                                                                                                                                                                                                                  
 
-SP2-0309: imbrication des procédures de commandes SQL*Plus d'une profondeur de 20.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
+SP2-0309: imbrication des procï¿½dures de commandes SQL*Plus d'une profondeur de 20.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
 SP2-0044: Pour la liste des commandes connues entrez HELP
 and et pour sortir EXIT.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
-SP2-0042: commande inconnue "end" - reste de la ligne ignoré.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
+SP2-0042: commande inconnue "end" - reste de la ligne ignorï¿½.
 SP2-0044: Pour la liste des commandes connues entrez HELP
 and et pour sortir EXIT.

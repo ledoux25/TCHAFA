@@ -6,15 +6,15 @@ PROMPT
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                          Please make a selection:                                     |                         '
+PROMPT '                                  |                                          Faites votre a selection:                                     |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
 Prompt '                                  |                   *                                                                  *                |                         '
 prompt '                                  |                   *                     1: Nouvelle publication                      *                |                         '
-prompt '                                  |                   *                     2: Consulter mes publication                 *                |                         '
+prompt '                                  |                   *                     2: Consulter mes publications                 *                |                         '
 prompt '                                  |                   *                     3: Modifier une publication                  *                |                         '
 prompt '                                  |                   *                     4: Annuler une publication                   *                |                         '
-prompt '                                  |                   *                     5: Consulter les publication                 *                |                         '
-prompt '                                  |                   *                     6: Trier les publication                     *                |                         '  
+prompt '                                  |                   *                     5: Consulter les publications                 *                |                         '
+prompt '                                  |                   *                     6: Trier les publications                     *                |                         '  
 prompt '                                  |                   *                     7: Precedent                                 *                |                         '
 prompt '                                  |                   *                     0: Quitter                                   *                |                         '
 Prompt '                                  |                   *                                                                  *                |                         '
@@ -22,7 +22,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-6: "
+accept selection prompt "Choisissez une option 0-6: "
 
 set term off
 set serveroutput on

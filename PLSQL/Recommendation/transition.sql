@@ -1,7 +1,7 @@
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                         Please make a selection:                                      |                         '
+PROMPT '                                  |                                         Faites votre  selection:                                      |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                    1: Precedent                                  *                |                         '
 prompt '                                  |                   *                    0: Quitter                                    *                |                         '
@@ -10,7 +10,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-1: "
+accept selection prompt "Choisissez une option 0-1: "
 
 set term off
 set serveroutput on

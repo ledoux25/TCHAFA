@@ -2,7 +2,7 @@ clear scre
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                          Please make a selection:                                     |                         '
+PROMPT '                                  |                                          Faites votre selection:                                     |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
 Prompt '                                  |                   *                                                                  *                |                         '
 prompt '                                  |                   *                     1: Modifier le deathline                     *                |                         '
@@ -14,7 +14,7 @@ PROMPT '                                  |                   ******************
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |--------------------------------------------------------------------------------------------------------                         '
-accept selection prompt "Enter option 0-3: "
+accept selection prompt "Choisissez une option 0-3: "
 
 set term off
 set serveroutput on

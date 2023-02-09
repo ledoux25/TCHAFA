@@ -22,6 +22,7 @@ CLEAR SCREEN
 --        else 'echec dauthentification'
 --        end as script 
 -- from dual;
+
 -- /
 -- set term on
 -- @select script from dual
@@ -35,7 +36,7 @@ PROMPT '                                  --------------------------------------
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                   ********************************************************************                |                         ' 
-Prompt '                                  |                   *   VEILLEZ RESEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION    *                |                         '
+Prompt '                                  |                   *   VEILLEZ RENSEINGNER LES INFOS NECESSAIRE A VOTRE INSCRIPTION   *                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '
 PROMPT '                                  |                                                                                                       |                         '
 PROMPT '                                  |                                                                                                       |                         '
