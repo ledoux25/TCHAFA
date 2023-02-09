@@ -3,7 +3,7 @@ clear screen
 PROMPT '                                  ---------------------------------------------------------------------------------------------------------                         '                                                                                                                           
 PROMPT '                                  |                                                                                                       |                         ' 
 PROMPT '                                  |                                                                                                       |                         '
-PROMPT '                                  |                                        Voulez vous vous deconnecter? :                                |                         '
+PROMPT '                                  |                                        Voulez-vous vous deconnecter? :                                |                         '
 PROMPT '                                  |                   ********************************************************************                |                         '     
 prompt '                                  |                   *                                                                  *                |                         '
 PROMPT '                                  |                   *                                                                  *                |                         '
